@@ -1,10 +1,7 @@
 version: 0.2
 
 phases:
-  pre_build:
-    commands:
-      - docker build -t helloworld .
   build:
     commands:
-      - docker images
-      - docker run helloworld echo "Hello, World!" 
+      - docker buildx build . 
+      - docker run helloworld echo "Hello, World!"
