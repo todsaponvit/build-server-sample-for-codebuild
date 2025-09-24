@@ -1,3 +1,3 @@
-FROM amazonlinux:latest
+FROM public.ecr.aws/amazonlinux/amazonlinux:latest 
  
 RUN echo "Hello World from amazonlinux"
