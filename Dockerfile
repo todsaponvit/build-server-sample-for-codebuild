@@ -1,3 +1,3 @@
-FROM maven:3.3.9-jdk-8
+FROM public.ecr.aws/amazonlinux/amazonlinux:latest 
  
 RUN echo "Hello World"
